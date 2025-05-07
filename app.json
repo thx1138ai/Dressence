@@ -1,0 +1,30 @@
+{
+  "name": "Strut",
+  "expo": {
+    "name": "Strut",
+    "slug": "strut",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "screens/assets/model.json",
+      "screens/assets/*.bin",
+      "assets/**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.ulk.strut"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "131afc8f-2eba-4567-80aa-5ddd7ac90f91"
+      }
+    },
+    "plugins": [
+      "expo-barcode-scanner",
+      "expo-asset"
+    ]
+  },
+  "expo-build-properties": {
+    "ios": {
+      "newArchEnabled": false
+    }
+  }
+}
